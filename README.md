@@ -29,3 +29,25 @@ An interactive web-based dashboard built using **Python**, **Streamlit**, and **
    ```bash
    git clone [https://github.com/billaseth/sales-dashboard.git](https://github.com/billaseth/sales-dashboard.git)
    cd sales-dashboard
+
+
+
+
+pip install streamlit pandas plotly numpy openpyxl
+
+streamlit run app.py
+
+sales-dashboard/
+│
+├── app.py              # Main Streamlit application script
+├── sales_data.csv      # Sample dataset for testing
+└── README.md           # Project documentation
+
+
+Ise save karke wapas VS Code ke terminal me yeh 3 commands run kar dena taaki yeh README file bhi GitHub par update ho jaye:
+
+```bash
+git add README.md
+git commit -m "Add README.md documentation"
+git push origin main
+   
